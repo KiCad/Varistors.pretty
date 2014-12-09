@@ -3,10 +3,10 @@
   (descr "Connecteur 10 pins")
   (tags "CONN DEV")
   (fp_text reference r_pack9 (at -1.016 -2.54) (layer F.SilkS)
-    (effects (font (size 1.27 1.27) (thickness 0.2032)))
+    (effects (font (size 1 1) (thickness 0.15)))
   )
-  (fp_text value Val** (at -0.762 2.286) (layer F.SilkS)
-    (effects (font (size 1.27 1.016) (thickness 0.2032)))
+  (fp_text value VAL** (at -0.762 2.286) (layer F.SilkS)
+    (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_line (start -12.7 1.27) (end -12.7 -1.27) (layer F.SilkS) (width 0.15))
   (fp_line (start -12.7 -1.27) (end 12.7 -1.27) (layer F.SilkS) (width 0.15))
@@ -23,7 +23,7 @@
   (pad 8 thru_hole circle (at 6.35 0) (size 1.397 1.397) (drill 0.8128) (layers *.Cu *.Mask F.SilkS))
   (pad 9 thru_hole circle (at 8.89 0) (size 1.397 1.397) (drill 0.8128) (layers *.Cu *.Mask F.SilkS))
   (pad 10 thru_hole circle (at 11.43 0) (size 1.397 1.397) (drill 0.8128) (layers *.Cu *.Mask F.SilkS))
-  (model discret/r_pack9.wrl
+  (model Discret/r_pack9.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

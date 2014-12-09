@@ -3,10 +3,10 @@
   (descr "Diode 4 pas")
   (tags "DIODE DEV")
   (fp_text reference D4 (at 0 0) (layer F.SilkS)
-    (effects (font (size 1.27 1.016) (thickness 0.2032)))
+    (effects (font (size 1 1) (thickness 0.15)))
   )
-  (fp_text value D*** (at 0 0) (layer F.SilkS) hide
-    (effects (font (size 1.27 1.016) (thickness 0.2032)))
+  (fp_text value VAL** (at 0 0) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_line (start -3.81 -1.27) (end 3.81 -1.27) (layer F.SilkS) (width 0.15))
   (fp_line (start 3.81 -1.27) (end 3.81 1.27) (layer F.SilkS) (width 0.15))
@@ -18,7 +18,7 @@
   (fp_line (start 3.81 0) (end 5.08 0) (layer F.SilkS) (width 0.15))
   (pad 1 thru_hole circle (at -5.08 0) (size 1.778 1.778) (drill 1.016) (layers *.Cu *.Mask F.SilkS))
   (pad 2 thru_hole rect (at 5.08 0) (size 1.778 1.778) (drill 1.016) (layers *.Cu *.Mask F.SilkS))
-  (model discret/diode.wrl
+  (model Discret/D4.wrl
     (at (xyz 0 0 0))
     (scale (xyz 0.4 0.4 0.4))
     (rotate (xyz 0 0 0))

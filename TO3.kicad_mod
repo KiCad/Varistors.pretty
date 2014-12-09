@@ -3,10 +3,10 @@
   (descr "Transistor TO3")
   (tags "TR TO3")
   (fp_text reference TO3 (at -13.716 -11.176) (layer F.SilkS)
-    (effects (font (size 1.016 1.016) (thickness 0.2032)))
+    (effects (font (size 1 1) (thickness 0.15)))
   )
-  (fp_text value U*** (at -14.351 -9.144) (layer F.SilkS)
-    (effects (font (size 1.016 1.016) (thickness 0.2032)))
+  (fp_text value VAL** (at -14.351 -9.144) (layer F.SilkS)
+    (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_line (start -20.32 -2.54) (end -21.336 0) (layer F.SilkS) (width 0.15))
   (fp_line (start -21.336 0) (end -20.32 2.54) (layer F.SilkS) (width 0.15))
@@ -25,7 +25,7 @@
   (pad 1 thru_hole circle (at 15.24 0) (size 6.35 6.35) (drill 3.937) (layers *.Cu *.Mask F.SilkS))
   (pad 2 thru_hole circle (at -2.54 -5.08) (size 2.54 2.54) (drill 1.3208) (layers *.Cu *.Mask F.SilkS))
   (pad 3 thru_hole circle (at -2.54 5.08) (size 2.54 2.54) (drill 1.3208) (layers *.Cu *.Mask F.SilkS))
-  (model discret/to3.wrl
+  (model Discret/TO3.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

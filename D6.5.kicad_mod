@@ -1,10 +1,10 @@
 (module D6.5 (layer F.Cu)
   (at 0 0)
   (fp_text reference D6.5 (at 0 -1.27) (layer F.SilkS)
-    (effects (font (size 1.524 1.27) (thickness 0.2032)))
+    (effects (font (size 1 1) (thickness 0.15)))
   )
-  (fp_text value VAL*** (at 0 1.27) (layer F.SilkS)
-    (effects (font (size 1.524 1.27) (thickness 0.2032)))
+  (fp_text value VAL** (at 0 1.27) (layer F.SilkS)
+    (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_line (start 6.985 3.175) (end -6.35 3.175) (layer F.SilkS) (width 0.15))
   (fp_line (start -6.35 3.175) (end -6.35 -3.175) (layer F.SilkS) (width 0.15))
@@ -16,7 +16,7 @@
   (fp_line (start 6.985 0) (end 8.89 0) (layer F.SilkS) (width 0.15))
   (pad 1 thru_hole circle (at -8.89 0) (size 2.159 2.159) (drill 1.397) (layers *.Cu *.Mask F.SilkS))
   (pad 2 thru_hole rect (at 8.89 0) (size 2.159 2.159) (drill 1.397) (layers *.Cu *.Mask F.SilkS))
-  (model discret/diode.wrl
+  (model Discret/D6.5.wrl
     (at (xyz 0 0 0))
     (scale (xyz 0.7 0.7 0.7))
     (rotate (xyz 0 0 0))
