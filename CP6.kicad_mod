@@ -2,10 +2,10 @@
   (at 0 0)
   (descr "Condensateur polarise")
   (tags CP)
-  (fp_text reference CP6 (at 0 0) (layer F.SilkS)
+  (fp_text reference REF** (at 0 0) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (fp_text value VAL** (at 0.635 0) (layer F.SilkS) hide
+  (fp_text value CP6 (at 0.635 0) (layer F.Fab)
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_line (start -7.62 0) (end -6.604 0) (layer F.SilkS) (width 0.15))
@@ -20,7 +20,7 @@
   (fp_line (start 6.604 1.524) (end 6.604 0) (layer F.SilkS) (width 0.15))
   (pad 1 thru_hole rect (at -7.62 0) (size 1.397 1.397) (drill 0.8128) (layers *.Cu *.Mask F.SilkS))
   (pad 2 thru_hole circle (at 7.62 0) (size 1.397 1.397) (drill 0.8128) (layers *.Cu *.Mask F.SilkS))
-  (model Discret/CP6.wrl
+  (model Discret.3dshapes/CP6.wrl
     (at (xyz 0 0 0))
     (scale (xyz 0.6 0.6 0.6))
     (rotate (xyz 0 0 0))
